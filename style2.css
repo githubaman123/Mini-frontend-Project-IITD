@@ -1,0 +1,181 @@
+#whole-page{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://wallpapertag.com/wallpaper/full/a/e/4/123022-high-quality-wallpapers-1920x1080-high-resolution.jpg);
+    background-size: cover;
+    margin: 0px;
+}
+nav{
+    display:flex;
+    margin-bottom: 7%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#praroz{
+    font-size: 35px;
+    font-family: cursive;
+    color: #F8D210;
+    margin-right: 5%;
+    transition:0.5s;
+}
+#praroz:hover{
+    color: #FA26A0;
+}
+div a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 15px;
+    transition: all 0.5s ;
+}
+div a:hover{
+    color:#FA26A0;
+    font-size:20px;
+}
+#nav_box{
+    display: flex;
+    transition: 0.5s ease;
+}
+#nav_box:hover{
+    border: #FA26A0 2px solid;
+    border-radius: 7px;
+    transform: scale(1.1);
+}
+#search_box{
+    background: transparent;
+    color: white;
+    border: 2px solid #FA26A0;
+    border-right:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 30px;
+}
+#nav_search_button{
+    background-color: #FA26A0;
+    color:white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    border: none;
+    height:35px ;
+    width: 80px;
+    transition: 0.5s;
+}
+#nav_search_button:hover{
+    background-color: #F8D210;
+    color: black;
+    transform: scale(1.1);
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.main_heading{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+
+}
+#development{
+    font-size: 80px;
+    color: #F8D210;
+    transition: 0.5s;
+}
+#development:hover{
+    color: #FA26A0;
+}
+.para{
+    font-size: 20px;
+    color: white;
+    line-height:2;
+}
+#join_us{
+    margin-top: 2%;
+    width: 120px;
+    height:30px;
+    border: none;
+    border-radius:10px;
+    background-color: #F8D210;
+    color: black;
+    transition: 0.5s;
+}
+#join_us:hover{
+    background-color: #FA26A0;
+    transform: scale(1.1);
+    color: white;
+}
+#form{
+    height: 400px;
+    width: 250px;
+    background-color: black;
+    border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    transition: 2s;
+}
+#form:hover{
+    transform: scale(1.05);
+    box-shadow: 4px 2px 10px #F8D210 ;
+}
+#login_here{
+    width:200px;
+    height: 30px;
+    background-color: white;
+    color: #F8D210;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.input{
+    background: transparent;
+    color: white;
+    border:none;
+    border-bottom: #F8D210 solid 2px;
+    width: 200px;
+}
+#login{
+    width:200px;
+    height: 30px;
+    background-color:#F8D210;
+    font-weight:700;
+    color: black;
+    border-radius:5px;
+    transition: 0.5s;
+}
+#login:hover{
+    transform: scale(1.1);
+    background-color:#FA26A0;
+    color: white;
+}
+#form p{
+    color: white;
+    text-align: center;
+}
+#sign_up{
+    text-decoration: none;
+    color: #F8D210;
+    transition: 0.5s;
+}
+#sign_up:hover{
+    color: #FA26A0;
+    font-size: 17px;
+}
+#form_footer{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    color: gray;
+}
